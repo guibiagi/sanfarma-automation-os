@@ -21,11 +21,11 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 | **Maturidade** | MÉDIA-ALTA |
 | **README** | ✅ Completo (408 linhas) |
 | **docs/** | ✅ Sim |
-| **tests/** | ❌ Ausente |
-| **CI** | ✅ GitHub Actions |
-| **Docker** | ✅ docker-compose |
+| **tests/** | ✅ 45 testes (em `backend/tests/`) |
+| **CI** | ✅ GitHub Actions (ruff + pytest) |
+| **Docker** | ✅ Dockerfile + docker-compose |
 | **Dados reais** | ⚠️ Banco PostgreSQL com dados de produção |
-| **Pendências** | Testes unitários/integração; pyproject.toml; requisitos explícitos |
+| **Pendências** | Nenhuma crítica |
 
 ---
 
@@ -172,7 +172,7 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 
 | Projeto | README | Docs | Tests | CI | Docker | Maturidade |
 |---|---|---|---|---|---|---|
-| frete-portal | ✅ | ✅ | ❌ | ✅ | ✅ | MÉDIA-ALTA |
+| frete-portal | ✅ | ✅ | ✅ | ✅ | ✅ | ALTA |
 | sanfarma-conciliacao | ✅ | ✅ | ✅ | ✅ | ✅ | ALTA |
 | fluxo-caixa | ✅ | ✅ | ✅ | ✅ | ⚠️ | ALTA |
 | inteligencia-comercial | ✅ | ❌ | ✅ | ❌ | ❌ | MÉDIA |
