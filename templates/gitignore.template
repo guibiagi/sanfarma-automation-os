@@ -1,0 +1,70 @@
+# .gitignore — Python + Sanfarma
+
+# Credenciais e ambiente
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dados de produção — NUNCA versionar
+data/
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs e outputs
+logs/
+*.log
+output/
+exports/
+
+# Docker
+.dockerignore
+# (não ignore Dockerfile ou docker-compose.yml)
+
+# CI/CD
+.github/
+# (versionar workflows mas não secrets)
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+*.eggs/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Backup files
+*.bak
+*.backup
