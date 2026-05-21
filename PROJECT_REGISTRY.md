@@ -40,12 +40,12 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 | **Stack** | Python 3.12 · PostgreSQL (ERP) · Docker · mTLS/OAuth 2.0 · OpenRouter/DeepSeek |
 | **Maturidade** | ALTA |
 | **README** | ✅ Excelente (648 linhas, diagrama ASCII, glossário) |
-| **docs/** | ❌ Ausente |
-| **tests/** | ❌ Ausente |
+| **docs/** | ✅ Sim (`docs/arquitetura.md`) |
+| **tests/** | ✅ 78 testes (em `src/tests/`) |
 | **CI** | ✅ GitHub Actions |
 | **Docker** | ✅ Dockerfile + docker-compose |
 | **Dados reais** | ⚠️ Extratos bancários em `data/` (não versionado) |
-| **Pendências** | Criar `docs/`; testes unitários para pipeline financeiro crítico |
+| **Pendências** | Nenhuma crítica |
 
 ---
 
@@ -173,7 +173,7 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 | Projeto | README | Docs | Tests | CI | Docker | Maturidade |
 |---|---|---|---|---|---|---|
 | frete-portal | ✅ | ✅ | ❌ | ✅ | ✅ | MÉDIA-ALTA |
-| sanfarma-conciliacao | ✅ | ❌ | ❌ | ✅ | ✅ | ALTA |
+| sanfarma-conciliacao | ✅ | ✅ | ✅ | ✅ | ✅ | ALTA |
 | fluxo-caixa | ✅ | ✅ | ✅ | ✅ | ⚠️ | ALTA |
 | inteligencia-comercial | ✅ | ❌ | ✅ | ❌ | ❌ | MÉDIA |
 | fpa-open-toolkit | ✅ | ✅ | ✅ | ❌ | ⚠️ | MÉDIA |
