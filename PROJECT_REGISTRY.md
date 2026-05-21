@@ -129,42 +129,42 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 
 ---
 
-## 7. returns-portal ⏳
+## 7. returns-portal
 
 | Campo | Valor |
 |---|---|
-| **Repositório** | *(não criado)* |
-| **Visibilidade** | 🔐 Privado (planejado) |
-| **Status** | ⏳ Planejado |
-| **Propósito** | Portal B2B de devoluções — FastAPI + PostgreSQL + HTMX. Interface para clientes B2B gerenciarem processos de devolução. |
-| **Stack** | FastAPI · PostgreSQL · HTMX (planejado) |
-| **Pendências** | Criar repositório; definir escopo inicial |
+| **Repositório** | [guibiagi/returns-portal](https://github.com/guibiagi/returns-portal) |
+| **Visibilidade** | 🔐 Privado |
+| **Status** | 🚧 Protótipo / Em desenvolvimento |
+| **Propósito** | Portal B2B de devoluções — FastAPI + PostgreSQL + HTMX. Interface para clientes B2B gerenciarem processos de devolução de produtos. |
+| **Stack** | FastAPI · PostgreSQL · HTMX · Docker |
+| **Pendências** | Definir arquitetura; primeiro MVP |
 
 ---
 
-## 8. cortex-pme ⏳
+## 8. cortex-pme
 
 | Campo | Valor |
 |---|---|
-| **Repositório** | *(não criado)* |
-| **Visibilidade** | 🅿️ Público (planejado) |
-| **Status** | ⏳ Planejado |
+| **Repositório** | [guibiagi/cortex-pme](https://github.com/guibiagi/cortex-pme) |
+| **Visibilidade** | 🅿️ Público |
+| **Status** | ⏳ Planejado / Arquitetura |
 | **Propósito** | Decision Layer para CEO/dono de PME, com briefing diário, fila de aprovação universal e visão consolidada de operações. |
-| **Stack** | TBD |
-| **Pendências** | Criar repositório; arquitetura inicial |
+| **Stack** | Python · TBD |
+| **Pendências** | Definir arquitetura inicial; escopo do MVP |
 
 ---
 
-## 9. dashboard-producao-sanfarma ⏳
+## 9. dashboard-producao-sanfarma
 
 | Campo | Valor |
 |---|---|
-| **Repositório** | *(não criado)* |
-| **Visibilidade** | 🔐 Privado (planejado) |
-| **Status** | ⏳ Planejado |
+| **Repositório** | [guibiagi/dashboard-producao-sanfarma](https://github.com/guibiagi/dashboard-producao-sanfarma) |
+| **Visibilidade** | 🔐 Privado |
+| **Status** | 🚧 Em extração do fluxo-caixa |
 | **Propósito** | Dashboard de produção da Sanfarma. Atualmente existe como submódulo dentro de `fluxo-caixa-automatizado/dashboard/`. |
-| **Stack** | FastAPI · Jinja2 · Chart.js (a definir) |
-| **Pendências** | Extrair do fluxo-caixa; criar repositório independente |
+| **Stack** | FastAPI · Jinja2 · Chart.js |
+| **Pendências** | Extrair código do fluxo-caixa; setup independente |
 
 ---
 
@@ -178,7 +178,10 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 | inteligencia-comercial | ✅ | ❌ | ✅ | ❌ | ❌ | MÉDIA |
 | fpa-open-toolkit | ✅ | ✅ | ✅ | ❌ | ⚠️ | MÉDIA |
 | ml-automations | ✅ | ❌ | ❌ | ❌ | ❌ | BAIXA |
+| returns-portal | ✅ | ❌ | ❌ | ❌ | ❌ | INICIAL |
+| cortex-pme | ✅ | ❌ | ❌ | ❌ | ❌ | INICIAL |
+| dashboard-producao | ✅ | ❌ | ❌ | ❌ | ❌ | INICIAL |
 
 ---
 
-*Última atualização: 2026-05-21 — Fase 1 do plano de reorganização GitHub*
+*Última atualização: 2026-05-21 — Fase 2 do plano de reorganização GitHub*
