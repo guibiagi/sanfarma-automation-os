@@ -101,12 +101,12 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 | **Maturidade** | MÉDIA |
 | **README** | ✅ Bom (169 linhas) |
 | **docs/** | ✅ Sim |
-| **tests/** | ✅ 7 arquivos |
-| **CI** | ❌ Ausente |
+| **tests/** | ✅ 125 testes |
+| **CI** | ✅ GitHub Actions (ruff + pytest) |
 | **LICENSE** | ✅ MIT |
 | **Makefile** | ✅ Sim |
 | **Dados reais** | ✅ Dados sintéticos (público) |
-| **Pendências** | CI público; `.env.example` (✅ feito); confirmar dados 100% sintéticos |
+| **Pendências** | Nenhuma crítica |
 
 ---
 
@@ -176,7 +176,7 @@ Catálogo completo de todos os sistemas de automação, dados e inteligência op
 | sanfarma-conciliacao | ✅ | ✅ | ✅ | ✅ | ✅ | ALTA |
 | fluxo-caixa | ✅ | ✅ | ✅ | ✅ | ⚠️ | ALTA |
 | inteligencia-comercial | ✅ | ❌ | ✅ | ❌ | ❌ | MÉDIA |
-| fpa-open-toolkit | ✅ | ✅ | ✅ | ❌ | ⚠️ | MÉDIA |
+| fpa-open-toolkit | ✅ | ✅ | ✅ | ✅ | ⚠️ | MÉDIA |
 | ml-automations | ✅ | ❌ | ❌ | ❌ | ❌ | BAIXA |
 | returns-portal | ✅ | ❌ | ❌ | ❌ | ❌ | INICIAL |
 | cortex-pme | ✅ | ❌ | ❌ | ❌ | ❌ | INICIAL |
